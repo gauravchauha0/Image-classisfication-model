@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 # Paths for image directory and model
 IMDIR=sys.argv[1])
 MODEL='models/resnet18.pth'
-
+#my project
 # Load the model for testing
 model = torch.load(MODEL)
 model.eval()
